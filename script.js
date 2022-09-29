@@ -18,13 +18,9 @@ console.log(skullBones);
 console.log(Math.PI);
 
 // let randomNumber = Math.random();
-
 // randomNumber *= 3;
-
 // randomNumber = Math.floor(randomNumber);
-
 // randomNumber++;
-
 // console.log(randomNumber); // range 1-3
 
 //Alternate way 
@@ -32,9 +28,6 @@ let randomNumber = Math.floor(Math.random()*3 +1);
 console.log(randomNumber);
 
 //BONUS 
-
-//let itGo = " Let It Go!";
-//console.log(itGo.repeat(2); itGo.toUpperCase); 6. Using only one line of code, create the following string " Let It Go!" and change it to "LET IT GO! LET IT GO!" (NOTE: Notice the space before " Let" as well as the space between "GO! LET". Also, NOT allowed to use the replace method to complete this. Finally, a variable is NOT required to complete this.)
 
 console.log(" Let It Go!".repeat(2).toUpperCase());
 
